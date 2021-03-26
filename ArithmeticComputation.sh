@@ -30,5 +30,6 @@ arr[3]="${ARITHMETIC[key3]}"
 arr[4]="${ARITHMETIC[key4]}"
 echo "In Array = ${arr[@]}"
 
-echo -e "Computation results in Decending order= \c"
-printf "%s  " ${arr[@]} | sort
+echo -e "Computation results in Ascending order"
+printf '%s\n' "${arr[@]}" | sort -n
+
