@@ -12,3 +12,6 @@ echo "a*b+c= $a2"
 
 a3=`echo "scale=2;$c + $a/$b"| bc`
 echo "c+a/b =$a3"
+
+a4=`echo "scale=2;($a%$b) + $c"|bc`
+echo "a%b+c =$a4"
