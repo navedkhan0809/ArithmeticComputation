@@ -22,5 +22,10 @@ ARITHMETIC[key1]="$a1"
 ARITHMETIC[key2]="$a2"
 ARITHMETIC[key3]="$a3"
 ARITHMETIC[key4]="$a4"
+echo "In Dictionary = ${ARITHMETIC[@]}"
 
-echo ${ARITHMETIC[@]}
+arr[1]="${ARITHMETIC[key1]}"
+arr[2]="${ARITHMETIC[key2]}"
+arr[3]="${ARITHMETIC[key3]}"
+arr[4]="${ARITHMETIC[key4]}"
+echo "In Array = ${arr[@]}"
