@@ -4,5 +4,5 @@
 echo -e "Enter 3 Numbers:/c"
 read a b c
 
-echo $a $b $c
-
+a1=$(($a + $b*$c))
+echo "a+b*c= $a1"
