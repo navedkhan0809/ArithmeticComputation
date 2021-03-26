@@ -6,3 +6,6 @@ read a b c
 
 a1=$(($a + $b*$c))
 echo "a+b*c= $a1"
+
+a2=$(($a*$b + $c))
+echo "a*b+c= $a2"
